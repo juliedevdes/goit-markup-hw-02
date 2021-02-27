@@ -7,21 +7,23 @@
         }
         /*--- отменить стили по умолчанию ----*/
         
-        address {
+        .general-adress {
             font-style: normal;
         }
         
-        ul {
+        .list {
             list-style-type: none;
         }
         
         .link {
             text-decoration: none;
+            color: inherit;
         }
         /*--- шрифты ---*/
         
         body {
             font-family: 'Roboto', sans-serif;
+            color: var(--main-color);
         }
         
         .logo {
@@ -43,7 +45,6 @@
             font-size: 14px;
             line-height: 1.14;
             letter-spacing: 0.02em;
-            color: var(--main-color);
         }
         
         .nav:hover,
@@ -95,6 +96,7 @@
             text-align: center;
             letter-spacing: 0.06em;
             color: #FFFFFF;
+            cursor: pointer
         }
         
         .hero-button:hover,
@@ -111,7 +113,6 @@
             line-height: 16px;
             letter-spacing: 0.03em;
             text-transform: uppercase;
-            color: var(--main-color);
         }
         
         .features-text {
@@ -128,7 +129,6 @@
             line-height: 1.17;
             text-align: center;
             letter-spacing: 0.03em;
-            color: var(--main-color);
         }
         /* --- team--- */
         
@@ -137,7 +137,6 @@
             font-size: 16px;
             line-height: 1.19;
             letter-spacing: 0.03em;
-            color: var(--main-color);
         }
         
         .card-text {
@@ -176,7 +175,6 @@
             font-size: 18px;
             line-height: 2;
             letter-spacing: 0.06em;
-            color: var(--main-color);
         }
         
         .card-text-portfolio {
@@ -195,6 +193,7 @@
             color: var(--main-color);
             background-color: #F5F4FA;
             border-radius: 4px;
+            cursor: pointer
         }
         
         .filter-button:hover,
